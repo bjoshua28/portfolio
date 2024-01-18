@@ -1,0 +1,228 @@
+body {
+  background-color: #EFE9E2;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper { 
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+.topnav {
+  background-color: #EFE9E2;
+  overflow: hidden;
+}
+.row.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.row.purple-border {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.row.purple-border > div {
+  width: 50%;
+}
+
+.row.wide-column.purple-border > div {
+  width: 40%;
+  margin-top: 48px;
+}
+.row.wide-column.purple-border > div:first-child {
+  width: 60%;
+}
+
+.row.hero> div {
+  width: 50%;
+}
+
+.row.wide-column.row.hero > div {
+  width: 40%;
+  margin-top: 48px;
+}
+.row.wide-column.hero > div:first-child {
+  width: 60%;
+}
+/* navigation bar */
+.topnav {
+  color: #493700;
+  text-align: right;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  padding: 24px 0 0;
+  margin: 48px;
+  border-style: none;
+}
+
+.purple-border {
+  border-bottom: solid #785589;
+}
+.topnav a {
+  padding: 0 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #785589;
+  font-weight: 700;
+}
+
+/* heading - name */
+h1 {
+ color: #493700;
+ text-align: left;
+ font-size: 60px;
+ font-family: 'Prata', serif;
+ font-weight: normal;
+ padding: 0 48px; 
+ margin-bottom: 0; 
+
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #493700;
+  text-decoration: underline;
+
+}
+
+/* UX DESIGNER */
+p.first-body {
+  font-size: 36px;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: #493700;
+  font-size: 20px;
+   padding: 0 48px; 
+  margin-bottom: 15px; 
+}
+/* BIO */
+h2 {
+ color: #493700;
+ text-align: left;
+ font-size: 36px;
+ font-weight: normal;
+ padding: 48px; 
+ margin-bottom: 12px; 
+}
+
+/* FEATURED WORKS */
+.banner {
+  float: center;
+  color: #493700;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 540;
+  padding: 48px;
+  width: 100%;
+  padding: 12px;
+  margin: 0 48px 48px;
+  border-style: solid;
+  border-color: #493700;
+  background-color: #FFFFFF;
+ 
+}
+
+/* CARDS */
+h3 {
+  padding: 12px;
+  margin: 48px;
+  margin-bottom: 12px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Prata', serif;
+  color: #7F6000;
+  font-weight: 300;
+}
+
+.cardContainer {
+  border: none;
+  background-color: none;
+  padding: 24px;
+  margin: 100px 48px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+ 
+}
+
+.cardContainer:hover {
+  background-color: #7F6000;
+  color: white;
+}
+
+.row.hero > div {
+  width: 50%;
+}
+
+.row.wide-column.hero > div {
+  width: 40%;
+  margin-top: 48px;
+}
+.row.wide-column.hero > div:first-child {
+  width: 60%;
+}
+
+/* PARAGRAPH */
+p.second-body {
+  padding: 48px;
+  width: 80%; 
+  margin: 200px;
+  margin-top: 12px;
+  border-top: solid #785589;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 350; 
+  color: #493700;
+  flex-shrink: 0;
+}
+/* FONTS 1 AND 2 */
+.font1{
+  font-family: 'Prata', serif;
+}
+.font2{
+  font-family: 'Prata', serif;
+  font-style: italic;
+}
+.font3 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  font-size: 48px;
+  bottom: 0;
+  right: 0;
+  left: 30px;
+  width: 100%;
+  display: flex;
+  height: 186px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-top: 48px;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #25283D;
+}
+.footer * {
+  color: #FFF;
+}
